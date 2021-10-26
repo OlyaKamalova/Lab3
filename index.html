@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate almost whatever you want</title>
+    <link rel="Stylesheet" href = "Style.css">
+    <script src = "Calculate.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="textarea">
+            <div id="rezult">0</div>
+            <div id="arhiv" hidden="hidden"> </div>
+        </div>
+
+        <button id="id0" onclick="f('id0')">0</button>
+        <button id="id1" onclick="f('id1')">1</button>
+        <button id="id2" onclick="f('id2')">2</button>
+        <button id="id3" onclick="f('id3')">3</button>
+        <button id="id4" onclick="f('id4')">4</button>
+        <button id="id5" onclick="f('id5')">5</button>
+        <button id="id6" onclick="f('id6')">6</button>
+        <button id="id7" onclick="f('id7')">7</button>
+        <button id="id8" onclick="f('id8')">8</button>
+        <button id="id9" onclick="f('id9')">9</button>
+
+        <button id="useless_beautiful_button">❤</button>
+        <button id="ideq" onclick="equal()">=</button>
+        <button id="idpl" onclick="act('+')">+</button>
+        <button id="idmin" onclick="act('-')">-</button>
+        <button id="idumn" onclick="act('*')">*</button>
+        <button id="iddel" onclick="act('/')">/</button>
+
+        <button id="clear" onclick="clearAll()">C</button>
+        <button id="delete" onclick="deleteLast()">DEL</button>
+
+
+    </div>
+</body>
+</html>
